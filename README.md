@@ -14,6 +14,7 @@ joyコンで亀を操作する
  turtesim<br>
  
 # 動画
+https://youtu.be/5c2GKp9hH-c
 
 # 手順
  $roslaunch basic_lecture turtle.launch<br>
