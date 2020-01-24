@@ -5,19 +5,18 @@
 　joyコンで亀を操作する
 
 # 動作環境
-  ubuntu 18.04
+  ubuntu 18.04<br>
   ROS melodic 1.14.3　
   
 # 必要パッケージ
- ros-melodic-joy
- ros-melodic-joystick-driver
- turtesim
+ ros-melodic-joy<br>
+ ros-melodic-joystick-driver<br>
+ turtesim<br>
  
-#動画
+# 動画
 
-#手順
-
-　$roslaunch basic_lecture turtle.launch
- $rosrun joy joy_node _dev_name:="Sony PLAYSTATION(R)3 Controller"
- $rostopic echo /joy
+# 手順
+ $roslaunch basic_lecture turtle.launch<br>
+ $rosrun joy joy_node _dev_name:="Sony PLAYSTATION(R)3 Controller"<br>
+ $rostopic echo /joy<br>
  
